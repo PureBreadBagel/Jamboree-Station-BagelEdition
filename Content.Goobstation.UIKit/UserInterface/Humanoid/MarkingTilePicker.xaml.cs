@@ -280,6 +280,7 @@ public sealed partial class MarkingTilePicker : BoxContainer
                 Color = marking.MarkingColors[i],
                 SelectorType = ColorSelectorSliders.ColorSelectorType.Hsv,
             };
+            HullStyler.Apply(selector);
 
             var layer = i;
             selector.OnColorChanged += color =>
