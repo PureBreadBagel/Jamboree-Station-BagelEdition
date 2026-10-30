@@ -60,6 +60,10 @@
         rolls: 2, 5
       - id: MaterialLegionSkull1
   - type: Fauna # Lavaland Change
+  - type: PointLight # Jamboree change, to make them not hideable in the environment
+    radius: 4
+    energy: 2
+    color: "#e52e12"
 
 - type: entity
   id: MobLegionSkull
